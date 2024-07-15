@@ -2,6 +2,11 @@ body{
     background-color: aqua;
 }
 h1{
-    text-align: center;
     color: blueviolet;
+}
+@media (max-width: 576px){
+    h1{
+        text-align: center;
+        background-color: aqua;
+    }
 }
