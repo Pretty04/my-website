@@ -1,12 +1,48 @@
-body{
-    background-color: aqua;
+.content{
+    text-align: center;
+    padding: 150px 20px;
+    background: #e7eaf6;
+    color: #233142;
 }
-h1{
-    color: blueviolet;
+.hero{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
-@media (max-width: 576px){
-    h1{
-        text-align: center;
-        background-color: aqua;
-    }
+.link{
+color: #e7eaf6;
 }
+.contact :hover{
+    color: #e7eaf6;
+    text-decoration: none;
+}
+.contact{
+    background: #f6318c; 
+    color: whitesmoke;
+    border-radius: 8px;
+    border: none;
+    padding: 15px;
+    text-decoration: none;
+    transition: ease-in-out 120ms;
+    font-weight: bold;
+    font-size: large;
+}
+.merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #233142;
+}
+.greeting {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: larger;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+
+  
