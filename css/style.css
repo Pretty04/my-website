@@ -1,8 +1,12 @@
+
+
 .content{
+
     text-align: center;
     padding: 150px 20px;
-    background: #e7eaf6;
     color: #233142;
+    background:  #e7eaf6;
+
 }
 .hero{
     font-family: "Open Sans", sans-serif;
@@ -43,6 +47,25 @@ color: #e7eaf6;
     font-weight: 900;
     font-style: normal;
   }
-
-
-  
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 45px;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+.profile{
+    width: 450px;
+    border-radius: 200px;
+    border: #f6318c solid;
+    margin:  0 auto;
+    padding: auto;
+    justify-content: right;
+    padding-right: 0;
+}
+.identity{
+    line-height: 30px;
+    padding: 100px;
+    padding-left: 0;
+border-radius: 10px;
+justify-content: left;
+}
