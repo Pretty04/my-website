@@ -1,14 +1,12 @@
 
-body{
-    background:  #e7eaf6;
 
-}
 .content{
 
     text-align: center;
     padding: 150px 20px;
     color: #233142;
-   
+    background:  #e7eaf6;
+
 }
 .hero{
     font-family: "Open Sans", sans-serif;
@@ -58,5 +56,24 @@ color: #e7eaf6;
 .ice-cream1{
     padding: 50px;
 }
+
+  .heading{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 120px;
+    padding-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+  }
+  .info{
+    display: block;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border-color: #f6318c;
+  }
+  h3{
+    text-align: center;
+    padding-top: 30px;
+  }
 
   
