@@ -1,12 +1,14 @@
 
+body{
+    background:  #e7eaf6;
 
+}
 .content{
 
     text-align: center;
     padding: 150px 20px;
     color: #233142;
-    background:  #e7eaf6;
-
+   
 }
 .hero{
     font-family: "Open Sans", sans-serif;
@@ -47,25 +49,14 @@ color: #e7eaf6;
     font-weight: 900;
     font-style: normal;
   }
-.container{
-    display: flex;
-    justify-content: space-between;
-    padding: 45px;
-    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+
+
+
+.col-6{
+    padding: 50px;
 }
-.profile{
-    width: 450px;
-    border-radius: 200px;
-    border: #f6318c solid;
-    margin:  0 auto;
-    padding: auto;
-    justify-content: right;
-    padding-right: 0;
+.ice-cream1{
+    padding: 50px;
 }
-.identity{
-    line-height: 30px;
-    padding: 100px;
-    padding-left: 0;
-border-radius: 10px;
-justify-content: left;
-}
+
+  
