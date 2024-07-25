@@ -13,16 +13,27 @@ body{
 .identity{
     padding: 40px;
     text-align: center;
+    margin-left: 50px;
    
 }
 .profile{
     border-radius: 15px;
     display: block;
+    margin-right: 0;
     box-shadow: coral;
+    white-space: none;
 }
 .container1{
     background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
     color: white;
-    display: flex;
+    display: block;
     justify-content: space-between;
+}
+.btn{
+    display: block;
+    margin-left: 150px;
+    border-color: chocolate;
+}
+.homepage{
+    color: white;
 }
