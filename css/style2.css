@@ -1,33 +1,28 @@
 body{
-     background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
-    }
-    .container-1{
-        display: flex;
-        justify-content: space-between;
-    }
-    .identity{
-        line-height: 30px;
-        padding: 100px;
-        padding-left: 0;
-        border-radius: 10px;
-        justify-content: left;
-        color: white;
-        white-space: none;
-        text-align: center;
-    }
-    .edu-au-vic-wa-nt-hand {
-        font-family: "Edu AU VIC WA NT Hand", cursive;
-        font-optical-sizing: auto;
-        font-weight: 500;
-        font-style: normal;
-        color: white;
-        text-align: center;
-        padding: 50px;
-    }
-    .profile{
-        width: 450px;
-        margin:  0 auto;
-        padding: auto;
-        justify-content: left;
-        padding-right: 0;
-    }
+    background: pink;
+}
+.edu-au-vic-wa-nt-hand {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+.identity{
+    padding: 40px;
+    text-align: center;
+   
+}
+.profile{
+    border-radius: 15px;
+    display: block;
+    box-shadow: coral;
+}
+.container1{
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
